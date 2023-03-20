@@ -13,7 +13,7 @@ page 50102 "CSD Customer Subscriptions"
                 field("Customer No"; Rec."Customer No")
                 {
                     ApplicationArea = All;
-                    Enabled = ShowCustomerField;
+                    Visible = ShowCustomerField;
                 }
                 field("Subscription Code"; Rec."Subscription Code")
                 {
@@ -49,7 +49,12 @@ page 50102 "CSD Customer Subscriptions"
                 }
             }
 
-
+        }
+    }
+    trigger OnOpenPage()
+    begin
+        ShowCustomerField := rec.GetFilter("Customer No") = '';
+    end;
 
     var
         ShowCustomerField: Boolean;
