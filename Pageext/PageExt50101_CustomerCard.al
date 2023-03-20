@@ -21,7 +21,7 @@ pageextension 50101 "CSD Customer Card" extends "Customer Card"
     }
     actions
     {
-        addafter(Contact)
+        addlast(navigation)
         {
             action("Subscriptions")
             {

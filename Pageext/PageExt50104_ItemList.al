@@ -1,4 +1,4 @@
-pageextension 50104 "Item List Ext" extends "Item List"
+pageextension 50104 "Item List" extends "Item List"
 {
     layout
     {
@@ -13,7 +13,7 @@ pageextension 50104 "Item List Ext" extends "Item List"
     }
     actions
     {
-        addlast(Item)
+        addlast(navigation)
         {
             action("Subscriptions")
             {

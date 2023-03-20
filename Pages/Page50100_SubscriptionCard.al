@@ -3,6 +3,7 @@ page 50100 "CSD Subscription Card"
     Caption = 'Subscription Card';
     PageType = Card;
     SourceTable = "CSD Subscription";
+    Editable = true;
 
     layout
     {

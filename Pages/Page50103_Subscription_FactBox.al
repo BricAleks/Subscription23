@@ -19,13 +19,13 @@ page 50103 "CSD Subscription Factbox"
                 {
                     Caption = 'Item No';
                     ApplicationArea = All;
-                    Visible = ShowItemField;
+                    Enabled = ShowItemField;
                 }
                 field("Customer No"; rec."Customer No")
                 {
                     Caption = 'Customer No';
                     ApplicationArea = All;
-                    Visible = ShowCustFeld;
+                    Enabled = ShowCustFeld;
                 }
                 field("Cancelled Date"; rec."Cancelled Date")
                 {

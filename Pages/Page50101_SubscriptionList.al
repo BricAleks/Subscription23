@@ -2,6 +2,7 @@ page 50101 "CSD Subscription List"
 {
     PageType = List;
     ApplicationArea = All;
+    UsageCategory = Lists;
     SourceTable = "CSD Subscription";
     Editable = false;
     CardPageId = "CSD Subscription Card";

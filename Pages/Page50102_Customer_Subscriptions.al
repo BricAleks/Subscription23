@@ -3,6 +3,7 @@ page 50102 "CSD Customer Subscriptions"
     PageType = List;
     SourceTable = "CSD Customer Subscription";
     Caption = 'Customer Subscriptions';
+    ApplicationArea = all;
 
     layout
     {
@@ -13,7 +14,7 @@ page 50102 "CSD Customer Subscriptions"
                 field("Customer No"; Rec."Customer No")
                 {
                     ApplicationArea = All;
-                    Visible = ShowCustomerField;
+                    Enabled = ShowCustomerField;
                 }
                 field("Subscription Code"; Rec."Subscription Code")
                 {
